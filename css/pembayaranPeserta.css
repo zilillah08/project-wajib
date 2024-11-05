@@ -1,0 +1,96 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  .container {
+    display: flex;
+  }
+  .sidebar {
+    width: 200px;
+    background-color: #d1d1e9;
+    padding: 20px;
+    height: 100vh;
+  }
+  .sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+  }
+  .sidebar ul li a i {
+    margin-right: 10px;
+  }
+  .sidebar .contact {
+    margin-top: 50px;
+    font-size: 14px;
+  }
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 5px solid #0000ff;
+  }
+  .content h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .content .form-group {
+    margin-bottom: 20px;
+  }
+  .content .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .content .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .content .info {
+    background-color: #4a6b8a;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .content .payment-methods {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .content .payment-methods img {
+    margin: 0 10px;
+  }
+  .content .total-amount {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .content .total-amount span {
+    font-weight: bold;
+  }
+  .content .pay-now {
+    text-align: center;
+  }
+  .content .pay-now button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
